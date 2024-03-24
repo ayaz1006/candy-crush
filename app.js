@@ -93,6 +93,11 @@ document.addEventListener('DOMContentLoaded', () => {
               }
           }
       }
+    for(i = 0; i < 8; i ++){
+        if(squares[i].style.backgroundImage === ''){
+          let randomColor = Math.floor(Math.random() * candyColors.length)
+          squares[i].style.backgroundImage = candyColors[randomColor]
+        }
   }
   
   
