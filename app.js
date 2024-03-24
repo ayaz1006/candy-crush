@@ -98,7 +98,9 @@ document.addEventListener('DOMContentLoaded', () => {
           let randomColor = Math.floor(Math.random() * candyColors.length)
           squares[i].style.backgroundImage = candyColors[randomColor]
         }
+    }
   }
+    
   
   
   ///Checking for Matches
